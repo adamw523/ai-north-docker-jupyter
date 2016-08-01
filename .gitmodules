@@ -1,0 +1,3 @@
+[submodule "projects/docker-demo-images"]
+	path = projects/docker-demo-images
+	url = git@github.com:jupyter/docker-demo-images.git
