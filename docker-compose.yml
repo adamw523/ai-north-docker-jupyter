@@ -10,3 +10,9 @@ services:
     environment:
       GRANT_SUDO: 'yes'
 
+  db:
+    build: db/
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: ainorth
+
