@@ -7,3 +7,5 @@ USER root
 RUN apt-get update
 RUN apt-get -y install mysql-server mysql-client
 
+RUN conda install pymysql
+
